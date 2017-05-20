@@ -1,8 +1,8 @@
-# Escola Superior de Agricultura “Luiz de Queiroz” 
-# Programa de Pós graduação em Genética e Melhoramento de Plantas
+## Escola Superior de Agricultura “Luiz de Queiroz” 
+## Programa de Pós graduação em Genética e Melhoramento de Plantas
 ## Biometria de Marcadores Genéticos
 
-Alunos:
+**Alunos:**
 - Emanoel Martins
 - Gabriel Gesteira
 - Jackeline Borba
@@ -10,12 +10,11 @@ Alunos:
 
 ## Mapa Genético - _Mimulus guttatus_
 
-  Um mapa de população F2 proveniente do cruzamento entre Mimulus guttatus e M. nasutus foi construído por Fishman et. al e publicado na revista Genetics em 2001. Sabendo que mais locos foram genotipados após a construção deste mapa, o objetivo do nosso trabalho foi refazer o mapa para incluir as informações dos novos marcadores. Para isso utilizou-se conjunto de dados completo, contendo os marcadores antigos e os novos, e considerando as informações já disponíveis no artigo.  Os novos marcadores são mais informativos que os antigos, apresentando especialmente segregação 1:2:1 (codominantes), o que auxilia na construção de um mapa mais preciso pela abordagem multiponto. Para construir o mapa final utilizou-se o software Onemap e foram necessárias três etapas, que estão sintetizadas abaixo, juntamente com os respectivos códigos e funções.
+    Um mapa de população F2 proveniente do cruzamento entre Mimulus guttatus e M. nasutus foi construído por Fishman et. al e publicado na revista Genetics em 2001. Sabendo que mais locos foram genotipados após a construção deste mapa, o objetivo do nosso trabalho foi refazer o mapa para incluir as informações dos novos marcadores. Para isso utilizou-se conjunto de dados completo, contendo os marcadores antigos e os novos, e considerando as informações já disponíveis no artigo.  Os novos marcadores são mais informativos que os antigos, apresentando especialmente segregação 1:2:1 (codominantes), o que auxilia na construção de um mapa mais preciso pela abordagem multiponto. Para construir o mapa final utilizou-se o software Onemap e foram necessárias três etapas, que estão sintetizadas abaixo, juntamente com os respectivos códigos e funções.
 
 ## Primeira Tentativa
 
-Os grupos de ligação foram formados considerando todos os marcadores e LOD sugerido, mantendo a frequência de recombinação 0,5. Seguindo esses critérios foram obtidos 10 grupos de ligação. Contudo, houve necessidade de manipular os grupos de ligação para coerência com as informações prévias divulgadas no artigo.
-
+Os grupos de ligação foram formados considerando todos os marcadores e LOD sugerido, mantendo a frequência de recombinação 0,5. Seguindo esses critérios foram obtidos 10 grupos de ligação. Contudo, houve necessidade de manipular os grupos de ligação para coerência com as informações prévias divulgadas no artigo.  
 [**Clique aqui**](https://gabrielgesteira.github.io/Mapa-Mimulus/mapmimulus_1tentativa.html) para visualizar o script e os resultados obtidos com a análise.
 
 ## Segunda Tentativa
