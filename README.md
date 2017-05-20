@@ -1,7 +1,8 @@
-## Escola Superior de Agricultura “Luiz de Queiroz” 
-## Programa de Pós graduação em Genética e Melhoramento de Plantas
-### Biometria de Marcadores Genéticos
+# Escola Superior de Agricultura “Luiz de Queiroz” 
+# Programa de Pós graduação em Genética e Melhoramento de Plantas
+## Biometria de Marcadores Genéticos
 
+Alunos:
 - Emanoel Martins
 - Gabriel Gesteira
 - Jackeline Borba
@@ -9,22 +10,25 @@
 
 ## Mapa Genético - _Mimulus guttatus_
 
-Um mapa de população F2 proveniente do cruzamento entre Mimulus guttatus e M. nasutus foi construído por Fishman et. al e publicado na revista Genetics em 2001. Sabendo que mais locos foram genotipados após a construção deste mapa, o objetivo do nosso trabalho foi refazer o mapa para incluir as informações dos novos marcadores. Para isso utilizou-se conjunto de dados completo, contendo os marcadores antigos e os novos, e considerando as informações já disponíveis no artigo.  Os novos marcadores são mais informativos que os antigos, apresentando especialmente segregação 1:2:1 (codominantes), o que auxilia na construção de um mapa mais preciso pela abordagem multiponto. Para construir o mapa final utilizou-se o software Onemap e foram necessárias três etapas, que estão sintetizadas abaixo, juntamente com os respectivos códigos e funções.
+  Um mapa de população F2 proveniente do cruzamento entre Mimulus guttatus e M. nasutus foi construído por Fishman et. al e publicado na revista Genetics em 2001. Sabendo que mais locos foram genotipados após a construção deste mapa, o objetivo do nosso trabalho foi refazer o mapa para incluir as informações dos novos marcadores. Para isso utilizou-se conjunto de dados completo, contendo os marcadores antigos e os novos, e considerando as informações já disponíveis no artigo.  Os novos marcadores são mais informativos que os antigos, apresentando especialmente segregação 1:2:1 (codominantes), o que auxilia na construção de um mapa mais preciso pela abordagem multiponto. Para construir o mapa final utilizou-se o software Onemap e foram necessárias três etapas, que estão sintetizadas abaixo, juntamente com os respectivos códigos e funções.
 
 ## Primeira Tentativa
 
 Os grupos de ligação foram formados considerando todos os marcadores e LOD sugerido, mantendo a frequência de recombinação 0,5. Seguindo esses critérios foram obtidos 10 grupos de ligação. Contudo, houve necessidade de manipular os grupos de ligação para coerência com as informações prévias divulgadas no artigo.
+
 [**Clique aqui**](https://gabrielgesteira.github.io/Mapa-Mimulus/mapmimulus_1tentativa.html) para visualizar o script e os resultados obtidos com a análise.
 
 ## Segunda Tentativa
 
 Ao visualizar os heatmaps podemos notar que os grupos 1, 3 e 4 apresentaram evidências para ser separados em outros grupos independentes. Os grupos 1 e 3 foram subdivididos em grupos menores, cada um originando 3 grupos. Para separar o grupo 1 utilizou-se LOD=6 e rf=0.25. Para separar o grupo 3 utilizou-se LOD=5.45 e rf=0.2. Entretanto, não foi possível separar o grupo 4,  mesmo reduzindo consideravelmente a frequência de recombinação. Para este grupo em particular optou-se por remover os marcadores que apresentaram distorções, como pode ser visto através do heatmap. 
 Dessa forma, obtemos um total de 14 mapas, semelhante ao que foi obtido por Fishman et. al (2011). Após divisão destes grupos, eles foram reorganizados para que cada um deles estivesse em acordo com a sequência definida por Fischman, ou seja, G1novo=G1artigo, G2novo=G2artigo, e assim por diante. Então se verificou se os mesmos marcadores presentes em cada grupo formado estão no mesmo grupo do artigo, manipulando um a um quando necessário.
+
 [**Clique aqui**](https://gabrielgesteira.github.io/Mapa-Mimulus/mapmimulus_2tentativa.html) para visualizar o script e os resultados obtidos com a análise.
 
 ## Terceira Tentativa
 
 Após eliminar todos os marcadores incoerente, gerou-se o mapa final no Onemap e também com o auxílio do software Mapchart. Os marcadores em vermelho correspondem aos marcadores presentes tanto no mapa anterior quanto no mapa novo e os sublinhados são os codominantes.
+
 [**Clique aqui**](https://gabrielgesteira.github.io/Mapa-Mimulus/mapmimulus_3tentativa.html) para visualizar o script e os resultados obtidos com a análise.
 
 ## Material e Métodos
