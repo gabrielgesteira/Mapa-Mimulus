@@ -1,6 +1,6 @@
 ## Escola Superior de Agricultura “Luiz de Queiroz” 
-## Programa de Pós graduação em Genética e Melhoramento de Plantas
-## Biometria de Marcadores Genéticos
+### Programa de Pós graduação em Genética e Melhoramento de Plantas
+### Disciplina: Biometria de Marcadores Genéticos
 
 **Alunos:**
 - Emanoel Martins
