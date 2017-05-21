@@ -10,7 +10,7 @@
 
 ## Mapa Genético - _Mimulus sp._
 
-Um mapa de população $F_2$ proveniente do cruzamento entre _Mimulus guttatus_ e _Mimulus nasutus_ foi construído por Fishman _et. al_ e publicado na revista _Genetics_ em 2001. Sabendo que mais locos foram genotipados após a construção deste mapa, o objetivo do nosso trabalho foi refazer o mapa para incluir as informações dos novos marcadores. Para isso utilizou-se o conjunto de dados completo, contendo os marcadores antigos e os novos, e considerando as informações já disponíveis no artigo.  Os novos marcadores são mais informativos que os antigos, apresentando especialmente a segregação 1:2:1 (codominantes), o que auxilia na construção de um mapa mais preciso pela abordagem multiponto. Para construir o mapa final utilizou-se o software _Onemap_, sendo necessárias três etapas durante a construção que estão sintetizadas abaixo, juntamente com os respectivos códigos e funções.
+Um mapa de população F2 proveniente do cruzamento entre _Mimulus guttatus_ e _Mimulus nasutus_ foi construído por Fishman _et. al_ e publicado na revista _Genetics_ em 2001. Sabendo que mais locos foram genotipados após a construção deste mapa, o objetivo do nosso trabalho foi refazer o mapa para incluir as informações dos novos marcadores. Para isso utilizou-se o conjunto de dados completo, contendo os marcadores antigos e os novos, e considerando as informações já disponíveis no artigo.  Os novos marcadores são mais informativos que os antigos, apresentando especialmente a segregação 1:2:1 (codominantes), o que auxilia na construção de um mapa mais preciso pela abordagem multiponto. Para construir o mapa final utilizou-se o software _Onemap_, sendo necessárias três etapas durante a construção que estão sintetizadas abaixo, juntamente com os respectivos códigos e funções.
 
 ## Primeira Tentativa
 
@@ -20,7 +20,7 @@ Os grupos de ligação foram formados considerando todos os marcadores e o LOD s
 
 ## Segunda Tentativa
 
-Ao visualizar os _heatmaps_ podemos notar que os grupos 1, 3 e 4 apresentaram evidências de que deveriam ser separados em outros grupos, independentes. Os grupos 1 e 3 foram subdivididos em grupos menores, cada um originando 3 grupos. Para separar o grupo 1 utilizou-se $LOD=6$ e $rf=0.25$. Para separar o grupo 3 utilizou-se $LOD=5.45$ e $rf=0.2$. Entretanto, não foi possível separar o grupo 4,  mesmo reduzindo consideravelmente a frequência de recombinação. Para este grupo em particular optou-se por remover os marcadores que apresentaram distorções, como pode ser visto através do _heatmap_. 
+Ao visualizar os _heatmaps_ podemos notar que os grupos 1, 3 e 4 apresentaram evidências de que deveriam ser separados em outros grupos, independentes. Os grupos 1 e 3 foram subdivididos em grupos menores, cada um originando 3 grupos. Para separar o grupo 1 utilizou-se LOD=6 e rf=0.25. Para separar o grupo 3 utilizou-se LOD=5.45 e rf=0.2. Entretanto, não foi possível separar o grupo 4,  mesmo reduzindo consideravelmente a frequência de recombinação. Para este grupo em particular optou-se por remover os marcadores que apresentaram distorções, como pode ser visto através do _heatmap_. 
 Dessa forma, obtivemos um total de 14 mapas, semelhante ao que foi obtido por Fishman _et. al_ (2011). Após a divisão destes grupos, eles foram reorganizados para que cada um deles estivesse de acordo com a sequência definida por Fishman, ou seja, G1novo=G1artigo, G2novo=G2artigo, e assim por diante. Então, verificamos se os marcadores presentes em cada grupo formado estavam no mesmo grupo apresentado no artigo, manipulando um a um quando necessário.
 
 [**Clique aqui**](https://gabrielgesteira.github.io/Mapa-Mimulus/mapmimulus_2tentativa.html) para visualizar o script e os resultados obtidos com a análise.
@@ -45,7 +45,7 @@ Abaixo está a lista com os _heatmaps_ dos 14 grupos de ligação formados (cliq
 ![Grupo de ligação 11](https://gabrielgesteira.github.io/Mapa-Mimulus/images/heat11.tiff)
 ![Grupo de ligação 12](https://gabrielgesteira.github.io/Mapa-Mimulus/images/heat12.tiff)
 ![Grupo de ligação 13](https://gabrielgesteira.github.io/Mapa-Mimulus/images/heat13.tiff)
-1[Grupo de ligação 14](https://gabrielgesteira.github.io/Mapa-Mimulus/images/heat14.tiff)
+![heat14.tiff](https://gabrielgesteira.github.io/Mapa-Mimulus/images/heat14.tiff)
 
 Para visualizar o mapa final gerado, [clique aqui](https://gabrielgesteira.github.io/Mapa-Mimulus/images/mapa_mimulus.pdf).
 
