@@ -45,9 +45,9 @@ Abaixo está a lista com os _heatmaps_ dos 14 grupos de ligação formados (cliq
 ![Grupo de ligação 11](https://gabrielgesteira.github.io/Mapa-Mimulus/images/heat11.tiff)  
 ![Grupo de ligação 12](https://gabrielgesteira.github.io/Mapa-Mimulus/images/heat12.tiff)  
 ![Grupo de ligação 13](https://gabrielgesteira.github.io/Mapa-Mimulus/images/heat13.tiff)  
-![heat14.tiff](https://gabrielgesteira.github.io/Mapa-Mimulus/images/heat13.tiff)
+![heat14.tiff](https://gabrielgesteira.github.io/Mapa-Mimulus/images)
 
-Para visualizar o mapa final gerado, [**clique aqui**](https://gabrielgesteira.github.io/Mapa-Mimulus/images/mapa_mimulus.pdf).
+Para visualizar o mapa final gerado, [clique aqui**](https://gabrielgesteira.github.io/Mapa-Mimulus/images/mapa_mimulus.pdf).
 
 ## Material e Métodos
 
