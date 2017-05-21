@@ -31,7 +31,7 @@ Após eliminar todos os marcadores incoerentes, gerou-se o mapa final no _Onemap
 
 [**Clique aqui**](https://gabrielgesteira.github.io/Mapa-Mimulus/mapmimulus_3tentativa.html) para visualizar o script e os resultados obtidos com a análise.
 
-Abaixo está a lista com os _heatmaps_ dos 14 grupos de ligação formados (clique sobre os nomes para visualizá-los):
+Abaixo está a lista com os _heatmaps_ dos 14 grupos de ligação formados (clique sobre os nomes para visualizá-los):  
 [Grupo de ligação 1](https://gabrielgesteira.github.io/Mapa-Mimulus/images/heat1.tiff)  
 [Grupo de ligação 2](https://gabrielgesteira.github.io/Mapa-Mimulus/images/heat2.tiff)  
 [Grupo de ligação 3](https://gabrielgesteira.github.io/Mapa-Mimulus/images/heat3.tiff)  
