@@ -32,20 +32,20 @@ Após eliminar todos os marcadores incoerentes, gerou-se o mapa final no _Onemap
 [**Clique aqui**](https://gabrielgesteira.github.io/Mapa-Mimulus/mapmimulus_3tentativa.html) para visualizar o script e os resultados obtidos com a análise.
 
 Abaixo está a lista com os _heatmaps_ dos 14 grupos de ligação formados (clique sobre os nomes para visualizá-los):
-[Grupo de ligação 1](https://gabrielgesteira.github.io/Mapa-Mimulus/images/heat1.tiff)
-[Grupo de ligação 2](https://gabrielgesteira.github.io/Mapa-Mimulus/images/heat2.tiff)
-[Grupo de ligação 3](https://gabrielgesteira.github.io/Mapa-Mimulus/images/heat3.tiff)
-[Grupo de ligação 4](https://gabrielgesteira.github.io/Mapa-Mimulus/images/heat4.tiff)
-[Grupo de ligação 5](https://gabrielgesteira.github.io/Mapa-Mimulus/images/heat5.tiff)
-[Grupo de ligação 6](https://gabrielgesteira.github.io/Mapa-Mimulus/images/heat6.tiff)
-[Grupo de ligação 7](https://gabrielgesteira.github.io/Mapa-Mimulus/images/heat7.tiff)
-[Grupo de ligação 8](https://gabrielgesteira.github.io/Mapa-Mimulus/images/heat8.tiff)
-[Grupo de ligação 9](https://gabrielgesteira.github.io/Mapa-Mimulus/images/heat9.tiff)
-[Grupo de ligação 10](https://gabrielgesteira.github.io/Mapa-Mimulus/images/heat10.tiff)
-[Grupo de ligação 11](https://gabrielgesteira.github.io/Mapa-Mimulus/images/heat11.tiff)
-[Grupo de ligação 12](https://gabrielgesteira.github.io/Mapa-Mimulus/images/heat12.tiff)
-[Grupo de ligação 13](https://gabrielgesteira.github.io/Mapa-Mimulus/images/heat13.tiff)
-[Grupo de ligação 14](https://gabrielgesteira.github.io/Mapa-Mimulus/images/heat14.tiff)
+![Grupo de ligação 1](https://gabrielgesteira.github.io/Mapa-Mimulus/images/heat1.tiff)
+![Grupo de ligação 2](https://gabrielgesteira.github.io/Mapa-Mimulus/images/heat2.tiff)
+![Grupo de ligação 3](https://gabrielgesteira.github.io/Mapa-Mimulus/images/heat3.tiff)
+![Grupo de ligação 4](https://gabrielgesteira.github.io/Mapa-Mimulus/images/heat4.tiff)
+![Grupo de ligação 5](https://gabrielgesteira.github.io/Mapa-Mimulus/images/heat5.tiff)
+![Grupo de ligação 6](https://gabrielgesteira.github.io/Mapa-Mimulus/images/heat6.tiff)
+![Grupo de ligação 7](https://gabrielgesteira.github.io/Mapa-Mimulus/images/heat7.tiff)
+![Grupo de ligação 8](https://gabrielgesteira.github.io/Mapa-Mimulus/images/heat8.tiff)
+![Grupo de ligação 9](https://gabrielgesteira.github.io/Mapa-Mimulus/images/heat9.tiff)
+![Grupo de ligação 10](https://gabrielgesteira.github.io/Mapa-Mimulus/images/heat10.tiff)
+![Grupo de ligação 11](https://gabrielgesteira.github.io/Mapa-Mimulus/images/heat11.tiff)
+![Grupo de ligação 12](https://gabrielgesteira.github.io/Mapa-Mimulus/images/heat12.tiff)
+![Grupo de ligação 13](https://gabrielgesteira.github.io/Mapa-Mimulus/images/heat13.tiff)
+1[Grupo de ligação 14](https://gabrielgesteira.github.io/Mapa-Mimulus/images/heat14.tiff)
 
 Para visualizar o mapa final gerado, [clique aqui](https://gabrielgesteira.github.io/Mapa-Mimulus/images/mapa_mimulus.pdf).
 
