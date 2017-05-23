@@ -8,7 +8,7 @@
 - Jackeline Borba
 - Pedro Barbosa
 
-## Mapa Genético - _Mimulus sp._
+## Mapa Genético - _Mimulus spp._
 
 Um mapa de população F2 proveniente do cruzamento entre _Mimulus guttatus_ e _Mimulus nasutus_ foi construído por Fishman _et al._ e publicado na revista _Genetics_ em 2001. Sabendo que mais locos foram genotipados após a construção deste mapa, o objetivo do nosso trabalho foi refazer o mapa para incluir as informações dos novos marcadores. Para isso utilizou-se o conjunto de dados completo, contendo os marcadores antigos e os novos, e considerando as informações já disponíveis no artigo.  Os novos marcadores são mais informativos que os antigos, apresentando especialmente a segregação 1:2:1 (codominantes), o que auxilia na construção de um mapa mais preciso pela abordagem multiponto. Para construir o mapa final utilizou-se o software _Onemap_, sendo necessárias três etapas durante a construção que estão sintetizadas abaixo, juntamente com os respectivos códigos e funções.
 
@@ -49,13 +49,17 @@ Abaixo está a lista com os _heatmaps_ dos 14 grupos de ligação formados (cliq
 
 Para visualizar o mapa final gerado, [**clique aqui**](https://gabrielgesteira.github.io/Mapa-Mimulus/images/mapa_mimulus.pdf).
 
+## Vídeo: passo-a-passo
+
+Disponibilizamos um vídeo no YouTube onde detalhamos por etapas os procedimentos realizados para a elaboração do mapa genético. Para visualizar o vídeo, [**clique aqui**](https://youtu.be/UMG2LBWiv_A).
+
 ## Material e Métodos
 
-Um mapa genético proveniente do cruzamento entre _Mimulus guttatus_ e _M. nasutus_ foi construído por Fishman _et al._ (2001) e atualizado com posterior informação de novos marcadores. O novo mapa de ligação foi construído com o auxílio do software _Onemap_ (versão em desenvolvimento - Margarido _et al._) e _RStudio_ versão 3.4. Um total de 287 indivíduos de uma população $F_2$ e 418 marcadores foram utilizados na análise. Fishman _et al._ (2001) construiu o mapa inicial utilizando informação de 255 marcadores e o software _MAPMAKER_ 3.0. Dentre os marcadores, 213 são codominantes e 205 dominantes. Para construção do mapa final foram necessárias algumas etapas de construção dos grupos de ligação, ordenamento dos marcadores dentro de cada grupo e posterior realocação para equivalência ao que foi publicado previamente. Dentro do pacote _Onemap_ utilizou-se função de mapeamento “Kosambi” e as funções _compare_, _Rapid Chain Delineation_ e _try_ embutidas na função "order_seq()", juntamente com o algoritmo _Ripple_. No total, 19 marcadores foram descartados porque não apresentaram evidências de ligação, e o mapa final gerou 14 grupos, semelhante ao publicado anteriormente. Este mapa foi construído com o auxílio do software _MapChart_.
+Foi elaborada uma página com a descrição da metodologia utilizada na confecção do mapa (_Material and Methods_). Para visualizá-la, [**clique aqui**](https://gabrielgesteira.github.io/Mapa-Mimulus/materialmethods.pdf).
 
-## Material and Methods
+## Metodologia: breve resumo
 
-A genetic linkage map of an interspecific crossing between _Mimulus guttatus_ and _M. nasutus_ was constructed by Fishman _et al_ (2001) and updated with posterior information of new markers. The new linkage map was built using the program _Onemap_® (version in development - Margarido _et al_) and _Rstudio_® version 3.4. A total of 287 genotyped individuals of an F2 population and 418 markers were analyzed. Fishman _et al._ (2001) had constructed the prior map with 255 markers and using the program _MAPMAKER_ 3.0. Among these markers, 213 were codominants and 205 dominants. In order to build the final map several rounds of mapping, grouping and ordering within each linkage group were necessary, and relocation of markers to correspond with was published before. Within the _Onemap_ package, the mapping function chose was _Kosambi_, and the functions _compare_, _Rapid Chain Delineation_ and _try_, through the "order_seq()" command, which automate the process of mapping a sequence of markers, combining _compare_ and _try.seq_ functions. The algorithm _Ripple_ was used to check for plausible alternative orders. A total of 29 markers were discarded and the final map has 14 linkage groups, as well as the map published before. This final map figure was built using the program _MapChart_®.
+Um mapa genético proveniente do cruzamento entre _Mimulus guttatus_ e _M. nasutus_ foi construído por Fishman _et al._ (2001) e atualizado com posterior informação de novos marcadores. Fishman _et al._ (2001) utilizaram informação de 255 marcadores e o software _MAPMAKER_ 3.0. O novo mapa de ligação foi construído com o auxílio do software _Onemap_ (versão em desenvolvimento - Margarido _et al._) e _RStudio_ versão 3.4. Um total de 287 indivíduos de uma população F2 e 418 marcadores foram utilizados na análise. Dentre os marcadores, 213 são codominantes e 205 dominantes. Para obtenção do mapa final foram necessárias algumas etapas de construção dos grupos de ligação, ordenamento dos marcadores dentro de cada grupo, posterior realocação para equivalência ao que foi publicado previamente, e exclusão de marcadores que não apresentaram evidência de ligação suficiente. Dentro do pacote _Onemap_ utilizou-se função de mapeamento “Kosambi” e as funções _compare_, _Rapid Chain Delineation_ e _try_ embutidas na função “order_seq()”, juntamente com o algoritmo _Ripple_. No total, 29 marcadores foram descartados e o mapa final gerou 14 grupos, semelhante ao publicado anteriormente. Este mapa foi construído com o auxílio do software _MapChart_.
 
 
 ## Referências
